@@ -4,7 +4,7 @@ HashMapAdapter
 This project provides a HashMapAdapter that seems to be missing from Android.
 
 It can be used with a Spinner or AutoCompleteTextView to separate the data from the display text
-much like the HTML <OPTION> tag.
+much like the HTML \<OPTION\> tag.
 
 ```java
 
