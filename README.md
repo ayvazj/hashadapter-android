@@ -33,7 +33,7 @@ similarly to the HTML SELECT OPTION value field.
 
 
     // fill in the EditText with the VALUE when an item is selected (default KEY)
-    acadapter = new LinkedHashMapAdapter<String, String>(this, android.R.layout.simple_list_item_1, mapData, LinkedHashMapAdapter.FLAG_FILTER_RESULT_USE_VALUE);
+    // acadapter = new LinkedHashMapAdapter<String, String>(this, android.R.layout.simple_list_item_1, mapData, LinkedHashMapAdapter.FLAG_FILTER_ON_KEY | LinkedHashMapAdapter.FLAG_FILTER_RESULT_USE_VALUE);
 
     autocomplete = (AutoCompleteTextView) findViewById(R.id.autocomplete);
     autocomplete.setAdapter(acadapter);
